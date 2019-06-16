@@ -1,13 +1,6 @@
 <header>
   <meta charset="UTF-8">
   <style>
-      /* img {display: block; margin: 0 auto;} */
-      /* .center-fit {
-        max-width: 100vw;
-        max-height: 100%;
-        margin: auto;
-        object-fit: contain;
-      } */
     body {
       background-color: rgb(33, 33, 43);
     }
@@ -23,37 +16,23 @@
     :visited {
       color: rgb(160, 75, 19);
     }
-    .center-fit {
-      width: 100vw;
-      height: 100vh;
-      background-position: center center;
-      background-repeat: no-repeat;
-      overflow: hidden;
+    img {
+      position: absolute;
+      top: calc(50%);
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      max-width: 100%;
+      max-height: 100%;
     }
-
-    /* Set the image to fill its parent and make transparent */
-    .center-fit img {
-      min-height: 100%;
-      min-width: 100%;
-      margin: 0;
-      /* IE 8 */
-      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-      /* IE 5-7 */
-      filter: alpha(opacity=0);
-      /* modern browsers */
-      opacity: 0;
+    caption {
+      min-height: 12pt;
+      max-height: 12pt;
     }
   </style>
-  <div class="center-fit" style="background-image: url('https://downloader.disk.yandex.ru/preview/9d83f969860d93a0d808f2293893a43a25c3b36d2c20f4f1a00d61e67500bac3/5d068f60/uSdtJenWjlhuBD6bVGmWIMD741pMHKYOHz6G7lNbwipn-xZKwaC9UrCxKoeWlUamXvCPGaEAuW81XHRLIpmepw%3D%3D?uid=0&filename=invitation-day.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048');">
-  <picture>
-    <source
-      media="(min-width: 500px)"
-      srcset="https://downloader.disk.yandex.ru/preview/9d83f969860d93a0d808f2293893a43a25c3b36d2c20f4f1a00d61e67500bac3/5d068f60/uSdtJenWjlhuBD6bVGmWIMD741pMHKYOHz6G7lNbwipn-xZKwaC9UrCxKoeWlUamXvCPGaEAuW81XHRLIpmepw%3D%3D?uid=0&filename=invitation-day.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048">
-    <img
-      src="https://downloader.disk.yandex.ru/preview/9d83f969860d93a0d808f2293893a43a25c3b36d2c20f4f1a00d61e67500bac3/5d068f60/uSdtJenWjlhuBD6bVGmWIMD741pMHKYOHz6G7lNbwipn-xZKwaC9UrCxKoeWlUamXvCPGaEAuW81XHRLIpmepw%3D%3D?uid=0&filename=invitation-day.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048"
-      alt="a cute card" class="resize-image">
-  </picture>
+  <div id="img">
+  <img
+      src="https://s61myt.storage.yandex.net/rdisk/0246713dac0b1740e473cd77238e24d7377af615ad8d6390200169dfbdee5bec/5d06bf32/dG1W61d_ljZKw3nM1dYr3mSgryMEiZsdyqCVThstgGKHl_6n2yAnZ4-5G1iGZPDAxwnMqCyjxPYuD89myrt9Mw==?uid=61693870&filename=invitation-day.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&fsize=159652&hid=eec8e47e55fd8991e2978379a8557dc2&media_type=image&tknv=v2&etag=831833ec180d2b449988b06a45edd631&rtoken=1ixFWwQDX17O&force_default=yes&ycrid=na-19040aa9651c51612667386c2fadb0f1-downloader8e&ts=58b7832e8b080&s=ba481616714de43f994887b84bea4cf04dc64dadd0f47a3c7b6b6c14340b0fad&pb=U2FsdGVkX1_hSIoDn08JPd-MNJLQlbRTrXQ-b8zyTs6hOCspjhFmpOHq7wIivszhOJtQNXb6Lf5o9IfRVK2Tkg9zbEMYlL0D9Y7G6nMkS7w"
+      alt="Здесь должна быть картинка">
   </div>
-  <br>
-  <p>Проблемы с отображением картинки? Нажми <a href="https://d-wsky.github.io/day.html">здесь</a>.</p>
+  <!-- <div id="caption"><p>Проблемы с отображением картинки? Нажми <a href="https://d-wsky.github.io/day.html">здесь</a>.</p></div> -->
 </header>
